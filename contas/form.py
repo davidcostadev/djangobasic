@@ -5,3 +5,5 @@ class TransaoFrom(ModelForm):
     class Meta:
         model = Transacao
         fields = ['data', 'descricao', 'valor', 'categoria', 'observacoes']
+
+
