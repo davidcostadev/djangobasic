@@ -33,3 +33,13 @@ Aativar virtual env cd nome da virutal_env\Scripts\activate
 ### atualizar o bando de dados
 
 `py manage.py makemigration`
+
+## Usando docker-compose
+
+Subindo o servidor
+
+`docker-compose up -d`
+
+Criando o super usuário
+
+`docker-compose exec web python manage.py createsuperuser`
